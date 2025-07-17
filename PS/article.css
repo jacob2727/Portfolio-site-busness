@@ -25,3 +25,22 @@ body {
   margin-right: 40px;
   border-radius: 100px;
 }
+
+.article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  justify-items: center;
+  margin-top: 40px;
+  row-gap: 60px;
+  margin-right: 80px;
+}
+
+.div-1 {
+  display: flex;
+  margin-left: 80px;
+  width: 50ch;
+  grid-column: 1 / -1;
+  font-size: 32px;
+}
